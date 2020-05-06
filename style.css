@@ -1,0 +1,14 @@
+#input__container {
+    background:#f4f4f4;
+      max-width: 1024px;
+    margin: auto;
+    height: 50px;
+    box-shadow: 0 0 3px 0px black;
+}
+.output__container {
+    max-width: 1024px;
+    margin: auto;
+    height: 200px;
+    box-shadow: 0 0 4px black;
+    margin-top: 15px;
+}
