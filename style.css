@@ -1,0 +1,23 @@
+.container {
+    max-width: 1000px;
+    margin: auto;
+}
+
+.checkbox__container {
+    margin: 15px;
+    border: 1px solid;
+    padding: 15px;
+    display: flex;
+    justify-content: space-around;
+    color: black;
+    box-shadow: 0 0 4px 1px black;
+}
+
+.text__container {
+    text-align: center;
+    margin-top: 25px;
+}
+
+input.myText {
+    box-shadow: 0 0 2px 2px black;
+}
