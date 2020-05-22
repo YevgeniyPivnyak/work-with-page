@@ -1,0 +1,82 @@
+.container{
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+    position: relative;
+}
+
+@keyframes openPupap{
+    0%{
+        opacity: 0;
+
+    }
+    25%{
+
+    }
+    50%{
+        
+    }
+    75%{
+        
+    }
+    100%{
+        opacity: 100;
+    }
+
+}
+
+.subscribe_container {
+    margin: 20px;
+}
+
+#popup_container {
+    position: absolute;
+   
+}
+
+#close_btn {
+    margin: 5px;
+}
+#input_age {
+    margin-top: 20px;
+}
+    #send_btn {
+    margin: 26px 0 0 135px;
+}
+#close_btn {
+    margin: 0 0px 17px 245px;
+}
+
+.openPupup{
+    display: flex;
+    animation-name: openPupap;
+    animation-duration: 3s;
+    left: 340px;
+    top: 60px;
+    border: 1px solid;
+    flex-direction: column;
+    align-items: center;
+    max-width: 300px;
+    padding: 10px;
+    margin: auto;
+    border-radius: 5%;
+    background: #e3c3ff;
+    z-index: 5;
+}
+
+.closePupup{
+    display: none;
+}
+
+
+.bg{
+    animation-name: openPupap;
+    animation-duration: 3s;
+    left: 0;
+    top: 0;
+     position: absolute;
+    background: #a4a49c;
+     height: 2000px;
+     width: 2000px;
+     z-index: 0;
+}
